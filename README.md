@@ -43,5 +43,5 @@ This is how it looks the sample app, notice that you dont have to create any vie
 <img width="802" height="512" alt="Screenshot from 2025-10-25 10-54-49" src="https://github.com/user-attachments/assets/b2779dfd-8325-4a80-b542-1c0f01224cba" />
 <img width="802" height="512" alt="Screenshot from 2025-10-25 10-54-40" src="https://github.com/user-attachments/assets/a70b8655-1aad-4453-a738-656fa8e7e088" />
 
-
+I hope it has been useful to you 🫶
             
