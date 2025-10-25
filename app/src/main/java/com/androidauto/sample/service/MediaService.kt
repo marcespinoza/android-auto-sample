@@ -20,10 +20,12 @@ class MediaService : MediaBrowserServiceCompat() {
         mediaSession = MediaSessionCompat(this, "AndroidAutoSample").apply {
             setCallback(object : MediaSessionCompat.Callback() {
 
+                //Implement here your logic to manage when a item has been selecte (e.g. Play some music )
                 override fun onPlayFromMediaId(mediaId: String?, extras: Bundle?) {
                     super.onPlayFromMediaId(mediaId, extras)
                 }
 
+                //Implement here your logic to manage voice control actions.
                 override fun onPlayFromSearch(query: String?, extras: Bundle?) {
                     super.onPlayFromSearch(query, extras)
                 }
