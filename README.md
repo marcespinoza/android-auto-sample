@@ -25,6 +25,14 @@ automotive_app_desc.xml
             <uses name="media" />
         </automotiveApp>
 
+# Voice actions support 🗣️
+
+To support voice actions you need to implement ***onPlayFromSearch*** method in your media session callback.
+
+        override fun onPlayFromSearch(query: String?, extras: Bundle?) {
+            super.onPlayFromSearch(query, extras)
+        }
+
 # Desktop head unit
 To test your app you need to install the desktop head unit, install it following this instructions https://developer.android.com/training/cars/testing/dhu
 <img width="820" height="529" alt="imagecarauto" src="https://github.com/user-attachments/assets/06cc685d-4a0f-4548-a8a0-82b0c6572dcb" />
